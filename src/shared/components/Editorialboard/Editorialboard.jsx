@@ -195,7 +195,7 @@ export default function Editorialboard() {
 
                                         {/* Name */}
                                         <div className="md:col-span-1">
-                                            <h3 className="font-semibold text-gray-900 text-lg leading-tight">
+                                            <h3 className="font-semibold text-gray-900 text-lg leading-tight hover:text-blue-600">
                                                 Dr. {member.name}
                                             </h3>
                                         </div>

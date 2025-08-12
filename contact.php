@@ -37,14 +37,14 @@ try {
     $mail->isSMTP();
     $mail->Host       = 'smtp.gmail.com';
     $mail->SMTPAuth   = true;
-    $mail->Username   = 'info.icasmet@gmail.com';
-    $mail->Password   = 'qsbk fesa xbdn pkca'; // App Password
+    $mail->Username   = 'icasmet.conference@gmail.com';
+    $mail->Password   = 'xxjf jcus mepw fkqb'; // App Password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port       = 587;
 
     // Email setup to admin
-    $mail->setFrom('info.icasmet@gmail.com', 'ICASMET Enquiry');
-    $mail->addAddress('info.icasmet@gmail.com', 'ICASMET Enquiry');
+    $mail->setFrom('icasmet.conference@gmail.com', 'ICASMET Enquiry');
+    $mail->addAddress('icasmet.conference@gmail.com', 'ICASMET Enquiry');
     $mail->addReplyTo($_POST['email'], $_POST['firstname'] . ' ' . $_POST['secondname']);
     $mail->isHTML(true);
     $mail->Subject = 'New Contact Form Submission';
@@ -94,12 +94,12 @@ try {
     $replyMail->isSMTP();
     $replyMail->Host       = 'smtp.gmail.com';
     $replyMail->SMTPAuth   = true;
-    $replyMail->Username   = 'info.icasmet@gmail.com';
-    $replyMail->Password   = 'qsbk fesa xbdn pkca';
+    $replyMail->Username   = 'icasmet.conference@gmail.com';
+    $replyMail->Password   = 'xxjf jcus mepw fkqb';
     $replyMail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $replyMail->Port       = 587;
 
-    $replyMail->setFrom('info.icasmet@gmail.com', 'ICASMET Team');
+    $replyMail->setFrom('icasmet.conference@gmail.com', 'ICASMET Team');
     $replyMail->addAddress($_POST['email'], $_POST['firstname'] . ' ' . $_POST['secondname']);
     $replyMail->isHTML(true);
     $replyMail->Subject = 'Thank you for your enquiry - ICASMET 2025';

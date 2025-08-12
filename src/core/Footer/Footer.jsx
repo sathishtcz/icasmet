@@ -2,7 +2,6 @@ import React from 'react'
 import { GoDotFill } from 'react-icons/go'
 import { GrLocation } from 'react-icons/gr'
 import { IoIosMail } from 'react-icons/io'
-import { LuMailOpen } from 'react-icons/lu'
 import { Link } from 'react-router-dom'
 
 export default function Footer() {
@@ -14,9 +13,12 @@ export default function Footer() {
 
 
                         <div>
-                            <h2 className="text-xl lg:text-2xl font-bold tracking-wide text-blue-600 px-2 bg-white w-fit rounded-md p-1">
+                            {/* <h2 className="text-xl lg:text-2xl font-bold tracking-wide text-blue-600 px-2 bg-white w-fit rounded-md p-1">
                                 ICASMET 2025
-                            </h2>
+                            </h2> */}
+                            <Link to="/" className="flex items-center space-x-3">
+                                <img alt="ICASMET 2025 Logo" className=" w-55 h-13" src="/assets/images/logo.png" />
+                            </Link>
                             <p className="text-gray-200 mt-3 text-xl">
                                 International Conference on Applied Science, Multidisciplinary Engineering & Technology
                             </p>
@@ -52,7 +54,7 @@ export default function Footer() {
                             </li>
                             <li className='flex items-center gap-2'>
                                 <GoDotFill className='w-[10px]' />
-                                <Link to="/important-dates" className="text-gray-200 hover:text-white transition-all duration-300 block text-lg">Registration Details</Link>
+                                <Link to="/important-dates" className="text-gray-200 hover:text-white transition-all duration-300 block text-lg">Key Dates</Link>
                             </li>
                             <li className='flex items-center gap-2'>
                                 <GoDotFill className='w-[10px]' />
@@ -65,7 +67,7 @@ export default function Footer() {
                             <h3 className="text-xl md:text-2xl font-semibold text-white">Get in Touch</h3>
                             <div className="flex items-center gap-2 mt-2">
                                 <IoIosMail />
-                                <p className="text-gray-200   text-lg">info.icasmet@gmail.com</p>
+                                <p className="text-gray-200   text-lg">icasmet.conference@gmail.com</p>
                             </div>
                             <div className="flex items-center gap-2 mt-2">
                                 <GrLocation />

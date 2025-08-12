@@ -8,7 +8,7 @@ export default function Committee() {
                 <section>
                     <div className="container mx-auto px-6 py-8">
                         <div className="text-center mb-12">
-                            <span className="inline-block px-4 py-2 bg-blue-100 text-blue-600 rounded-full text-sm font-semibold mb-4">ORGANIZING COMMITEE</span>
+                            <span className="inline-block px-4 py-2 bg-blue-100 text-blue-600 rounded-full text-sm font-semibold mb-4">ORGANIZING COMMITTEE</span>
                             <h2 className="md:text-4xl text-2xl font-bold text-gray-800 mb-4">
                                Pillars of Coordination
                             </h2>

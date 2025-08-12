@@ -30,7 +30,7 @@ export default function Contact() {
         formDataToSend.append(key, value);
       });
 
-      const response = await fetch('http://192.168.1.53/ICASMET/contact.php', {
+      const response = await fetch('https://icasmet.com/api/contact.php', {
         method: 'POST',
         body: formDataToSend,
       });
@@ -62,8 +62,8 @@ export default function Contact() {
       <section className="container mx-auto px-6 py-8">
         <div className=" mx-auto px-4">
           <div className="text-center  mb-10">
-            <span className="inline-block px-4 py-2 bg-blue-100 text-blue-600 rounded-full text-sm font-semibold mb-4">Contact Us</span>
-            <h2 className="text-4xl font-bold text-gray-800 mb-4">
+            <span className="inline-block px-4 py-2 bg-blue-100 text-blue-600 rounded-full text-sm font-semibold mb-4 uppercase">Contact Us</span>
+            <h2 className="md:text-4xl text-2xl font-bold text-gray-800 mb-4">
               Reach Out to Us
             </h2>
             <p className="sm:text-base md:text-lg lg:text-[16px] text-gray-900 leading-relaxed mx-auto ">
@@ -79,7 +79,7 @@ export default function Contact() {
               </div>
               <div>
                 <h4 className="font-semibold mb-1">Email</h4>
-                <p className="text-gray-800">info.icasmet@gmail.com</p>
+                <p className="text-gray-800">icasmet.conference@gmail.com</p>
               </div>
             </div>
             <div className="flex items-start space-x-4">

@@ -53,11 +53,11 @@ function Header() {
 
     return (
         <>
-            <nav className={`fixed w-full top-0 z-50 transition-all duration-300  ${Active === "/" ? scrolled ? 'bg-[#1D26A1] backdrop-blur-md shadow-lg' : 'bg-transparent' : "bg-[#1D26A1] backdrop-blur-md shadow-lg"}`}>
+            <nav className={`fixed w-full top-0 z-50  py-3 transition-all duration-300  ${Active === "/" ? scrolled ? 'bg-[#1D26A1] backdrop-blur-md shadow-lg' : 'bg-transparent' : "bg-[#1D26A1] backdrop-blur-md shadow-lg"}`}>
                 <div className="container mx-auto px-6">
                     <div className="flex justify-between items-center">
                         <Link to="/" className="flex items-center space-x-3">
-                            <img alt="ICCNDS 2025 Logo" className="w-20 " src="/assets/images/logo.png" />
+                            <img alt="ICASMET 2025 Logo" className="w-55 h-12" src="/assets/images/logo.png" />
                         </Link>
 
                         {/* Desktop Nav */}
@@ -71,7 +71,7 @@ function Header() {
                                     <span>About Us</span>
                                     <span className="text-sm"><IoIosArrowDropdown className='text-lg' /></span>
                                 </button>
-                                <div className={`mt-2 absolute  overflow-hidden transition-all p-2 duration-400 ease-in-out bg-gray-100 shadow-lg rounded-md pt-5 pb-3 whitespace-nowrap ${isDesktopMenuOpen === 'about' ? 'max-h-60 opacity-100' : 'max-h-0 opacity-0'}`}>
+                                <div className={`mt-2 absolute  overflow-hidden transition-all p-2 duration-400 ease-in-out bg-gray-100 shadow-lg rounded-md pt-3 pb-3 whitespace-nowrap ${isDesktopMenuOpen === 'about' ? 'max-h-60 opacity-100' : 'max-h-0 opacity-0'}`}>
                                     <Link to="/about" onClick={() => setDesktopMenuOpen(false)} className={`block px-4 py-2 hover:font-medium duration-150   rounded-md ${Active === "/about" ? " text-white font-medium bg-[#1D26A1]" : "text-black hover:text-[#1D26A1]"}`}>About the Conference</Link>
                                     <Link to="/scope" onClick={() => setDesktopMenuOpen(false)} className={`block px-4 py-2 hover:font-medium duration-150 rounded-md  ${Active === "/scope" ? " text-white font-medium bg-[#1D26A1]" : "text-black hover:text-[#1D26A1]"}`}>Scope of Conference</Link>
                                     <Link to="/organizingCommittee" onClick={() => setDesktopMenuOpen(false)} className={`block px-4 py-2 hover:font-medium duration-150 rounded-md  ${Active === "/organizingCommittee" ? " text-white font-medium bg-[#1D26A1]" : "text-black hover:text-[#1D26A1]"}`}>Organzing Committee</Link>
@@ -85,7 +85,7 @@ function Header() {
                                     <span>Author's Desk</span>
                                     <span className="text-sm"><IoIosArrowDropdown className='text-lg' /></span>
                                 </button>
-                                <div className={`mt-2 absolute overflow-hidden transition-all duration-500 ease-in-out bg-gray-100 p-2 shadow-lg rounded-md pt-5 pb-3 whitespace-nowrap ${isDesktopMenuOpen === 'author' ? 'max-h-60 opacity-100' : 'max-h-0 opacity-0'}`}>
+                                <div className={`mt-2 absolute overflow-hidden transition-all duration-500 ease-in-out bg-gray-100 p-2 shadow-lg rounded-md pt-3 pb-3 whitespace-nowrap ${isDesktopMenuOpen === 'author' ? 'max-h-60 opacity-100' : 'max-h-0 opacity-0'}`}>
                                     <Link to="/conferenceTracks" onClick={() => setDesktopMenuOpen(false)} className={`block px-4 py-2 hover:font-medium duration-150  rounded-md ${Active === "/conferenceTracks" ? "text-white font-medium bg-[#1D26A1]" : "text-black hover:text-[#1D26A1]"}`}>Conference Tracks</Link>
                                     <Link to="/important-dates" onClick={() => setDesktopMenuOpen(false)} className={`block px-4 py-2 hover:font-medium duration-150  rounded-md ${Active === "/important-dates" ? "text-white font-medium bg-[#1D26A1]" : "text-black hover:text-[#1D26A1]"}`}>Key Dates</Link>
                                     <Link to="/paper-submission" onClick={() => setDesktopMenuOpen(false)} className={`block px-4 py-2 hover:font-medium duration-150  rounded-md ${Active === "/paper-submission" ? "text-white font-medium bg-[#1D26A1]" : "text-black hover:text-[#1D26A1]"}`}>Paper Submission</Link>

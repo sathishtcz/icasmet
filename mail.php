@@ -38,13 +38,13 @@ try {
     $mail->isSMTP();
     $mail->Host       = 'smtp.gmail.com';
     $mail->SMTPAuth   = true;
-    $mail->Username   = 'info.icasmet@gmail.com';
-    $mail->Password   = 'qsbk fesa xbdn pkca';
+    $mail->Username   = 'icasmet.conference@gmail.com';
+    $mail->Password   = 'xxjf jcus mepw fkqb';
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port       = 587;
 
-    $mail->setFrom('info.icasmet@gmail.com', 'Paper Submission System');
-    $mail->addAddress('info.icasmet@gmail.com', 'Paper Submissions');
+    $mail->setFrom('icasmet.conference@gmail.com', 'Paper Submission System');
+    $mail->addAddress('icasmet.conference@gmail.com', 'Paper Submissions');
     
     $mail->addReplyTo($_POST['Email_Address'], $_POST['Author_FUll_Name']);
 

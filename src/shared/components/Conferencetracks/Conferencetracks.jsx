@@ -56,7 +56,7 @@ export default function Conferencetracks() {
                     className="bg-white rounded-xl shadow-[0_0_10px_rgba(0,0,0,0.15)] p-6 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
                   >
                     <div className="flex items-center mb-4">
-                      <span className="w-10 h-10 bg-blue-600 text-white text-xl font-semibold rounded-full flex items-center justify-center mr-3">
+                      <span className="w-10 h-10 bg-blue-600 text-white text-xl font-semibold rounded-full flex items-center justify-center mr-3 flex-shrink-0">
                         {index + 1}
                       </span>
                       <h2 className="text-xl font-semibold text-gray-900">

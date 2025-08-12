@@ -9,7 +9,7 @@ function Home() {
       <section className="w-full min-h-screen flex items-center justify-center relative">
         {/* Background Image with Overlay */}
         <div
-          className="absolute inset-0 bg-cover bg-right  bg-fixed"
+          className="absolute inset-0 bg-cover bg-right  lg:bg-fixed"
           style={{
             backgroundImage:
               "linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('/assets/images/Hero.jpg')",
@@ -18,7 +18,7 @@ function Home() {
 
         {/* Foreground Content */}
         <div className="relative z-10 text-center text-white max-w-7xl mx-auto px-4">
-          <h1 className="text-[32px] md:text-[42px] lg:text-6xl font-semibold leading-snug  ">
+          <h1 className="text-[28px] md:text-[42px] lg:text-6xl font-semibold leading-snug  ">
             International Conference on Applied Science, Multidisciplinary Engineering &amp; Technology
           </h1>
           <h2 className="md:mt-4 text-[28px] md:text-[38px] lg:text-[50px] font-medium leading-[1.3]  ">
