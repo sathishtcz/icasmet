@@ -49,15 +49,15 @@ export default function Footer() {
                         <div className="space-y-3">
                             <h3 className="text-xl lg:text-2xl font-semibold text-white">Conference Information</h3>
                             <li className='flex items-center gap-2'>
-                                <GoDotFill className='w-[10px]' />
+                                <GoDotFill className='w-[10px] flex-shrink-0' />
                                 <Link to="/conferenceTracks" className="text-gray-200 hover:text-white transition-all duration-300 block text-lg">Conference Tracks</Link>
                             </li>
                             <li className='flex items-center gap-2'>
-                                <GoDotFill className='w-[10px]' />
+                                <GoDotFill className='w-[10px] flex-shrink-0' />
                                 <Link to="/important-dates" className="text-gray-200 hover:text-white transition-all duration-300 block text-lg">Key Dates</Link>
                             </li>
                             <li className='flex items-center gap-2'>
-                                <GoDotFill className='w-[10px]' />
+                                <GoDotFill className='w-[10px] flex-shrink-0' />
                                 <Link to="/paper-submission" className="text-gray-200 hover:text-white transition-all duration-300 block text-lg">Paper Submission</Link>
                             </li>
                         </div>
@@ -66,11 +66,11 @@ export default function Footer() {
                         <div>
                             <h3 className="text-xl md:text-2xl font-semibold text-white">Get in Touch</h3>
                             <div className="flex items-center gap-2 mt-2">
-                                <IoIosMail />
-                                <p className="text-gray-200   text-lg">icasmet.conference@gmail.com</p>
+                                <IoIosMail className='flex-shrink-0'/>
+                                <p className="text-gray-200  wrap-anywhere text-lg">icasmet.conference@gmail.com</p>
                             </div>
                             <div className="flex items-center gap-2 mt-2">
-                                <GrLocation />
+                                <GrLocation className='flex-shrink-0'/>
                                 <p className="text-gray-200 text-lg">Kuala Lumpur, Malaysia</p>
                             </div>
 
