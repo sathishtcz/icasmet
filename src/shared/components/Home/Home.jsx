@@ -1,9 +1,26 @@
 import React from 'react'
 import { Link, useLocation } from 'react-router-dom';
 import { MapPin, Calendar, Clock, Mail, Phone, Users, BookOpen, Award, Globe, Lightbulb, Rocket, Shield } from 'lucide-react';
+import Marquee from 'react-fast-marquee';
 
 
 function Home() {
+
+  const imageItems = [
+    { src: 'assets/images/associates/1.png', },
+    { src: 'assets/images/associates/2.jpg', },
+    { src: 'assets/images/associates/3.jpg', },
+    { src: 'assets/images/associates/4.jpg', },
+    { src: 'assets/images/associates/5.jpg', },
+    { src: 'assets/images/associates/6.jpg', },
+    { src: "assets/images/associates/scopus.png", },
+    { src: "assets/images/associates/8.jpg", },
+    { src: "assets/images/associates/9.jpg", },
+    { src: "assets/images/associates/10.jpg", },
+    { src: "assets/images/associates/11.jpg", },
+  ];
+
+
   return (
     <>
       <section className="w-full min-h-screen flex items-center justify-center relative">
@@ -254,6 +271,30 @@ function Home() {
             </div>
           </div>
         </div>
+      </section>
+
+
+      <section className="container mx-auto px-6 mt-8">
+        <div className="text-center">
+          <h2 className="md:text-4xl text-2xl font-bold text-gray-800 mb-4">
+            Indexed Journals
+          </h2>
+          <p className="sm:text-base md:text-lg lg:text-[16px] text-gray-900 leading-relaxed mx-auto text-center max-w-5xl ">
+           The Selective accepted papers of our International Conference on Applied Science, Multidisciplinary Engineering &amp; Technology will be recommended to publish in the following index & publisher Journals
+          </p>
+          <Marquee direction="left" speed={100}>
+          {/* pauseOnHover={true} */}
+          <div className="flex pb-5 pt-5 ">
+            {imageItems.map((item, index) => (
+              <div key={index} className="flex justify-center mr-10  py-5" >
+                <img src={item.src} alt="images" className=" w-[300px] rounded-lg shadow-[0_0_8px_rgba(0,0,0,0.15)] hover:shadow-[0_0_20px_rgba(0,0,0,0.15)] transition duration-300 hover:-translate-y-4" />
+              </div>
+            ))}
+          </div>
+        </Marquee>
+        </div>
+
+
       </section>
 
 
