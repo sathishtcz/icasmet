@@ -86,7 +86,7 @@ export default function Editorialboard() {
         {
             name: "Dr. Maryam Anwer",
             department: "Department of Industrial Engineering",
-            university: "Majma university",
+            university: "Majma University",
             location: "Saudi Arabia"
         },
         {
@@ -221,7 +221,7 @@ export default function Editorialboard() {
             location: "China"
         },
         {
-            name: "Dr. R. Arun Kumar",
+            name: "Dr.R. Arun Kumar",
             department: "Department of Digital Forensics and Cyber Security",
             university: "University of South Wales",
             location: "United Kingdom"
@@ -287,7 +287,7 @@ export default function Editorialboard() {
             location: "Algeria"
         },
         {
-            name: "Dr. D. Kayathri Devi",
+            name: "Dr.D. Kayathri Devi",
             department: "Department of Information Technology and Engineering",
             university: "Amity University",
             location: "Uzbekistan"
@@ -313,7 +313,7 @@ export default function Editorialboard() {
         {
             name: "Dr. Puneet Sharma",
             department: "Department of Automation and Process Engineering",
-            university: "The Arctic University of Norway",
+            university: "UiT The Arctic University of Norway",
             location: "Norway"
         },
         {
