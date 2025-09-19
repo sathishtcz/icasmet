@@ -30,7 +30,7 @@ export default function Register() {
                 <h3 className="text-2xl font-bold text-blue-600">Conference Dates</h3>
               </div>
               <div className="text-center">
-                <div className="text-2xl text-gray-800 mb-1">7 <sup>th</sup> May 2025</div>
+                <div className="text-2xl text-gray-800 mb-1">8<sup>th</sup> October 2025</div>
                 <div className="text-sm text-gray-500">The Days of Excellence</div>
               </div>
             </div>

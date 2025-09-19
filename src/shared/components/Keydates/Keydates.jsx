@@ -3,32 +3,32 @@ import React from 'react'
 export default function Keydates() {
 
   const keyDates = [
-  {
-    event: "Abstract Submission Deadline",
-    date: "April 2, 2025",
-    description: "Submit your research abstract for initial review and consideration.",
-  },
-  {
-    event: "Full Paper Submission Deadline",
-    date: "April 9, 2025",
-    description: "Provide your complete research paper for detailed evaluation.",
-  },
-  {
-    event: "Notification of Acceptance",
-    date: "April 17, 2025",
-    description: "Receive the official confirmation of your paper's acceptance.",
-  },
-  {
-    event: "Final Paper Submission",
-    date: "April 25, 2025",
-    description: "Submit the revised and formatted final version of your paper.",
-  },
-  {
-    event: "Conference Dates",
-    date: "May 7, 2025",
-    description: "Join us for the presentations, discussions, and networking sessions.",
-  },
-];
+    {
+      event: "Abstract Submission Deadline",
+      date: "September 2, 2025",
+      description: "Submit your research abstract for initial review and consideration.",
+    },
+    {
+      event: "Full Paper Submission Deadline",
+      date: "September 9, 2025",
+      description: "Provide your complete research paper for detailed evaluation.",
+    },
+    {
+      event: "Notification of Acceptance",
+      date: "September 17, 2025",
+      description: "Receive the official confirmation of your paper's acceptance.",
+    },
+    {
+      event: "Final Paper Submission",
+      date: "September 25, 2025",
+      description: "Submit the revised and formatted final version of your paper.",
+    },
+    {
+      event: "Conference Dates",
+      date: "October 8, 2025",
+      description: "Join us for the presentations, discussions, and networking sessions.",
+    },
+  ];
 
 
 

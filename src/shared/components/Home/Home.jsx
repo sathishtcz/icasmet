@@ -39,7 +39,7 @@ function Home() {
             International Conference on Applied Science, Multidisciplinary Engineering &amp; Technology
           </h1>
           <h2 className="md:mt-4 text-[28px] md:text-[38px] lg:text-[50px] font-medium leading-[1.3]  ">
-            May 7, 2025
+            October 08, 2025
           </h2>
           <Link to="/paper-submission">
             <button
